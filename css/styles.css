@@ -91,10 +91,6 @@ header h1 a {
     border: 2px solid #FFFFFF;
     box-shadow: 0px 3px 4px 0px #939393;
 }
-.floatLeft {
-    float: left;
-    margin: 0 25px 10px 0;
-}
 .floatRight{
     float: right;
     margin: 0 0 10px 25px;
@@ -115,13 +111,6 @@ footer p {
     line-height: 0px;
     margin-bottom: 20px;
 }
-#clearfoot {
-    clear: both;
-    height: 0;
-    font-size: 1px;
-    line-height: 0px;
-    margin: 0 0 20px 0;
-}
 .pictureMain img {
     max-width: 100%;
     display: block;
@@ -133,19 +122,6 @@ footer p {
 .enlace_local {
     color: #000000;
     text-decoration: none;
-}
-table {
-    width: 500px;
-    border: 1px solid #000;
-    border-collapse: collapse;
-}
-table th {
-    border: 1px solid #000;
-    color: #000000;
-    background-color: #8181F7;
-}
-table td {
-    border: 1px solid #000;
 }
 /*--------------------------------------------------------------------------------------------*/
 /********* begin MAIN NAV ********/
