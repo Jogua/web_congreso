@@ -1,0 +1,10 @@
+/*funciÃ³n que comprueba el formulario del registro*/
+function comprueba_formulario(f) {
+    var re = /^([a-zA-Z0-9_.-])+@(([a-zA-Z0-9-])+.)+([a-zA-Z0-9]{2,4})+$/;
+    if (!re.test(f.email.value)) {
+        alert("EMAIL INCORRECTO");
+        return false;
+    }
+    alert("Gracias por contactar con nosotros.\nEn breve recibirás respuesta.");
+    return false;
+}
