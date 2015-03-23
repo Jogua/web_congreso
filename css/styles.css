@@ -135,22 +135,20 @@ footer p {
 .mainContentIndex h2{
     padding: 20px 0;
 }
-
-.barraLateral{
-    padding: 20px 0 20px 0;
+/* estilos slider */
+.slider{
+    padding: 40px 0 20px 0;
     width: 30%;
     float: right;
+    position: relative;
 }
-.barraLateral h2{
-    padding: 20px 0;
+.slider h2{
     text-align: center;
 }
-.barraLateral img{
-    margin: 0 auto;
+.slider img{
+    margin: 50px 20px 0 50px;
     max-width: 80%;
-    display: block;
-    border: 2px solid #FFFFFF;
-    box-shadow: 0px 3px 4px 0px #939393;
+    max-height: 100px;
 }
 /* estilos formulario */
 .formulario h2 {

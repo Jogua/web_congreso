@@ -1,4 +1,4 @@
-/*funciÃ³n que comprueba el formulario del registro*/
+/*función que comprueba el formulario de envío de mensaje*/
 function comprueba_formulario(f) {
     var re = /^([a-zA-Z0-9_.-])+@(([a-zA-Z0-9-])+.)+([a-zA-Z0-9]{2,4})+$/;
     if (!re.test(f.email.value)) {
